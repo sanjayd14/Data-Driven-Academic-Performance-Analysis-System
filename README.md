@@ -42,3 +42,11 @@ The **Data-Driven Academic Performance Analysis System** is designed to automate
   ```bash
   pip install python-docx docx2pdf pandas openpyxl
 
+## File Descriptions
+
+- **data/student_data.xlsx**: The main Excel workbook containing student data, with multiple sheets (one per student) and a 'SUMMARY' sheet for overall class performance.
+- **scripts/generate_reports.py**: Python script that extracts data from the Excel workbook and generates DOCX reports with detailed performance insights for each student.
+- **scripts/convert_to_pdf.py**: Python script to convert the generated DOCX reports into PDFs for distribution.
+- **docs/reports/**: Folder containing generated reports for each student(all examinations).
+- **docs/powerbi dashboard/Overall Performance Analysis.pbix**: Power BI file containing the interactive dashboards for class performance analysis.
+
