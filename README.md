@@ -39,6 +39,7 @@ The **Data-Driven Academic Performance Analysis System** is designed to automate
 
 - **Excel**: Ensure the Excel workbook is structured as described, with formulas in place for each student and the 'SUMMARY' sheet for class-wide aggregation.
 - **Python**: Install the necessary libraries by running:
+  
   ```bash
   pip install python-docx docx2pdf pandas openpyxl
 
